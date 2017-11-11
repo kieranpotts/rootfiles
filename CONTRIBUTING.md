@@ -43,6 +43,7 @@ To fix an error, the project maintainers must be able to reproduce it. This requ
 
 - Detailed step-by-step instructions to reproduce the error.
 - A live example of the problem, e.g. a [Codepen](http://codepen.io/).
+- A screenshot if reporting a visual regression.
 - A failing test case.
 
 If relevant, please provide details of the browser name, version number, and operating system in which you experienced the error. Describe the outcome that you expected, and what's different about the actual outcome.
