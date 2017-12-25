@@ -9,6 +9,7 @@
 .svn
 .tmp
 .todo
+.vagrant
 build
 coverage
 dist
