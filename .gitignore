@@ -1,24 +1,29 @@
 # Exclude the following directories and
 # file types from source control:
 
-# Directories:
+*.bak
+*.log
+*.swp
+
 .cvs
 .DS_Store
+.env
 .grunt
 .idea
+.project
+.settings
 .svn
 .tmp
 .todo
 .vagrant
+
 build
 coverage
 dist
+docs
 logs
+nbproject
 node_modules
 Thumbs.db
 tmp
-
-# Files:
-*.bak
-*.log
-*.swp
+vendor
