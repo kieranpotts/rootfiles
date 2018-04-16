@@ -1,6 +1,8 @@
 # Exclude the following directories and
 # file types from source control:
 
+_*
+
 *.bak
 *.log
 *.swp
