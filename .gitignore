@@ -19,13 +19,13 @@ _*
 .todo
 .vagrant
 
-build
-coverage
-dist
-docs
-logs
-nbproject
-node_modules
 Thumbs.db
-tmp
-vendor
+
+/api/
+/build/
+/coverage/
+/dist/
+/nbproject/
+/node_modules/
+/tmp/
+/vendor/
