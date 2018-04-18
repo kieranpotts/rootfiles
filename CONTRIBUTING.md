@@ -241,7 +241,7 @@ Do not use GitHub's merge option. Instead, checkout the whole branch and test th
   - xxxxx
 - Update the CHANGELOG with a list of functional changes and bug fixes.
 - Commit those changes in a single commit that is dedicated to bumping the version number. The commit message must be in the format ``v1.0.0``.
-- Create an annotated tag on the appropriate ``master`` branch: ``git tag -m "v1.0.0" v1.0.0``.
+- Create an annotated tag on the appropriate ``master`` branch: ``git tag -a v1.0.0 -m "Tagging v1.0.0"``.
 - Push the changes and tags: ``git push --tags origin master``.
 - Update the website by checking out the ``gh-pages`` branch and following the instructions in the README in that branch.
 
