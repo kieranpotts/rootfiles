@@ -19,17 +19,6 @@ xxxxx
 xxxxx
 
 
-## Credits
-
-Elementary CSS is authored and maintained by [Kieran Potts](https://www.kieranpotts.com/). It builds on the great work of other open source software projects, notably:
-
-- [Project A](http://example.com/)
-- [Project B](http://example.com/)
-- [Project C](http://example.com/)
-- [Project D](http://example.com/)
-- [Project E](http://example.com/)
-
-
 ## Contributing
 
 This is a free and open source project. Community contributions are very welcome. Please refer to the [Contributing](docs/contributing.md) section of the documentation for guidance.
