@@ -32,13 +32,7 @@ Elementary CSS is authored and maintained by [Kieran Potts](https://www.kieranpo
 
 ## Contributing
 
-This is a free and open source software project. It is made possible by generous contributions from software engineers, both expert and novice, from around the world. There are three ways that you can get involved with this project:
-
-- Request features
-- Report bugs
-- Iterate the source code
-
-For instructions, please refer to the CONTRIBUTING document, which is distributed with this package.
+This is a free and open source project. Community contributions are very welcome. Please refer to the [Contributing](docs/contributing.md) section of the documentation for guidance.
 
 
 ## License
