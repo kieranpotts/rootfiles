@@ -1,4 +1,4 @@
-# Issue https://github.com/kieranpotts/gitbook-plugin-theme-contour/issues/<no>
+# Issue https://github.com/kieranpotts/rootfiles/issues/<no>
 
 
 ## Changes Proposed
@@ -7,12 +7,10 @@
 - xxx
 - xxx
 
-## Sanity Checks
+## Checklist
 
-(Put an ``x`` inside the ``[ ]``)
-
-- [ ] Test coverage
-- [ ] Tests passing
+- [x] Test coverage
+- [x] Tests passing
 - [ ] Coding style (indentation, etc)
 
 ## Additional Comments
