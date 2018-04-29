@@ -1,9 +1,11 @@
-[![Project Name](https://cdn.rawgit.com/kieranpotts/rootfiles/prod/docs/img/logo.svg)](https://www.example.com/)
+[![Project Name](https://rawgit.com/kieranpotts/rootfiles/prod/docs/img/logo.svg)](https://www.example.com/)
+
 # Repository Title
 
 [![Travis CI](https://img.shields.io/travis/rust-lang/rust.svg?style=flat-square&colorA=333333&colorB=0e8a16)](https://travis-ci.org/rust-lang/rust)
-[![NPM](https://img.shields.io/npm/v/npm.svg?label=latest&style=flat-square&colorA=333333&colorB=1d76db)](https://www.npmjs.com/package/npm)
-[![License](https://img.shields.io/github/license/kieranpotts/rootfiles.svg?style=flat-square&colorA=333333&colorB=fbca04)](LICENSE.txt)
+[![NPM](https://img.shields.io/github/tag/kieranpotts/rootfiles.svg?label=latest&style=flat-square&colorA=333333&colorB=1d76db)](https://www.npmjs.com/package/npm)
+[![Open Issues](https://img.shields.io/github/issues/kieranpotts/rootfiles.svg?style=flat-square&colorA=333333&colorB=1d76db)](LICENSE.txt)
+[![License](https://img.shields.io/github/license/kieranpotts/rootfiles.svg?style=flat-square&colorA=333333&colorB=1d76db)](LICENSE.txt)
 
 **Short introduction or tagline.**
 
