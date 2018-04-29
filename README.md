@@ -1,4 +1,4 @@
-# [![Project Name](https://cdn.rawgit.com/kieranpotts/projectname/logo/build/project-name-logo.382x60.png)](http://example.com/)
+# [![Project Name](https://cdn.rawgit.com/kieranpotts/rootfiles/prod/docs/img/logo.svg)]()
 
 [![Travis CI](https://img.shields.io/travis/rust-lang/rust.svg?style=flat-square)](https://travis-ci.org/rust-lang/rust)
 [![NPM](https://img.shields.io/npm/v/npm.svg?style=flat-square&label=latest)](https://www.npmjs.com/package/npm)
