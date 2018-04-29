@@ -17,5 +17,5 @@ Quisque fringilla elit eu auctor vehicula. Nulla at tincidunt risus, nec tristiq
 
 ---
 
-License: [MIT](LICENSE.txt) \
-Maintained by: [Your Name](https://example.com/)
+Maintained by [Your Name](https://example.com/). \
+Licensed under the [MIT license](LICENSE.txt).
