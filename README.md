@@ -17,13 +17,5 @@ Quisque fringilla elit eu auctor vehicula. Nulla at tincidunt risus, nec tristiq
 
 ---
 
-- License: [MIT](LICENSE.txt)
-- Maintained by: [Your Name](https://example.com/)
-
-<ul style="color: #777;padding-left:0;">
-    <li style="display: inline-block;padding-right: 10px;"><small>License: <a href="/kieranpotts/rootfiles/blob/prod/LICENSE.txt">MIT</a></small></li>
-    <li style="display: inline-block;"><small>Maintained by: <a href="https://example.com/" rel="nofollow">Your Name</a></small></li>
-</ul>
-
-<small>License: <a href="/kieranpotts/rootfiles/blob/prod/LICENSE.txt">MIT</a></small><br />
-<small>Maintained by: <a href="https://example.com/" rel="nofollow">Your Name</a></small>
+License: [MIT](LICENSE.txt) \
+Maintained by: [Your Name](https://example.com/)
