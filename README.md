@@ -2,10 +2,10 @@
 
 # Repository Title
 
-[![GitHub release](https://img.shields.io/github/release/user/repo.svg?style=flat-square&colorB=1d76db&maxAge=3600)](https://github.com/user/repo/releases)
-[![GitHub issues](https://img.shields.io/github/issues/user/repo.svg?style=flat-square&colorB=1d76db&maxAge=3600)](https://github.com/user/repo/issues)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/kieranpotts/rootfiles.svg?style=flat-square&colorB=1d76db&maxAge=3600)](https://github.com/user/repo/pulls)
-[![Travis](https://img.shields.io/travis/user/repo.svg?style=flat-square&colorB=1d76db&maxAge=3600)](https://travis-ci.org/user/repo)
+[![GitHub release](https://img.shields.io/github/release/user/repo.svg?style=flat-square&colorA=777777&colorB=aaaaaa&maxAge=3600)](https://github.com/user/repo/releases)
+[![GitHub issues](https://img.shields.io/github/issues/user/repo.svg?style=flat-square&colorA=777777&colorB=aaaaaa&maxAge=3600)](https://github.com/user/repo/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/kieranpotts/rootfiles.svg?style=flat-square&colorA=777777&colorB=aaaaaa&maxAge=3600)](https://github.com/user/repo/pulls)
+[![Travis](https://img.shields.io/travis/user/repo.svg?style=flat-square&colorA=777777&colorB=aaaaaa&maxAge=3600)](https://travis-ci.org/user/repo)
 
 **Fusce lacinia felis ultricies gravida vestibulum. Nam egestas venenatis malesuada.**
 
