@@ -3,8 +3,9 @@
 # Repository Title
 
 [![Travis](https://img.shields.io/travis/user/repo.svg?style=for-the-badge)](https://travis-ci.org/user/repo)
-[![GitHub release](https://img.shields.io/github/release/user/repo.svg?style=for-the-badge)](releases)
-[![GitHub issues](https://img.shields.io/github/issues/user/repo.svg?style=for-the-badge)](issues)
+[![GitHub release](https://img.shields.io/github/release/user/repo.svg?style=for-the-badge)](https://github.com/user/repo/releases)
+[![GitHub issues](https://img.shields.io/github/issues/user/repo.svg?style=for-the-badge)](https://github.com/user/repo/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/kieranpotts/rootfiles.svg?style=for-the-badge)](https://github.com/user/repo/pulls)
 [![License](https://img.shields.io/github/license/user/repo.svg?style=for-the-badge)](LICENSE.txt)
 
 **Fusce lacinia felis ultricies gravida vestibulum. Nam egestas venenatis malesuada.**
