@@ -1,4 +1,4 @@
-# Contributing
+# How to Contribute
 
 This is a free and open source software project. It is made possible by generous contributions from software engineers, both expert and novice, from around the world. 
 
