@@ -3,7 +3,7 @@
 
 [![Travis CI](https://img.shields.io/travis/rust-lang/rust.svg?style=flat-square&colorA=333333&colorB=0e8a16)](https://travis-ci.org/rust-lang/rust)
 [![NPM](https://img.shields.io/npm/v/npm.svg?label=latest&style=flat-square&colorA=333333&colorB=1d76db)](https://www.npmjs.com/package/npm)
-[![License](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square&colorA=333333&colorB=fbca04)](LICENSE.txt)
+[![License](https://img.shields.io/github/license/kieranpotts/rootfiles.svg?style=flat-square&colorA=333333&colorB=fbca04)](LICENSE.txt)
 
 **Short introduction or tagline.**
 
