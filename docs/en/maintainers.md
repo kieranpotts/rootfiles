@@ -20,13 +20,13 @@ git pull origin test
 Checkout a new branch, based on ``test``. Use the name of the development branch that contains the changes that you want to review.
 
 ```
-git checkout -b dev/<issue-number>-<description> test
+git checkout -b dev/[issue]-[description] test
 ```
 
 Pull in the work to be reviewed from the relevant remote repository. This may be a fork of the upstream repository — rather than "origin" — if the PR is from an external contributor.
 
 ```
-git pull git://github.com/<user>/<project>.git dev/<issue-number>-<description>
+git pull git://github.com/[user]/[project].git dev/[issue]-[description]
 ```
 
 Test the changes and, if necessary, introduce new commits to get everything working as expected. Review associated tests and documentation.
@@ -35,7 +35,7 @@ If you approve of the changes, merge them into the ``test`` branch. Use the ``--
 
 ```
 git checkout test
-git merge --no-ff dev/<issue-number>-<description>
+git merge --no-ff dev/[issue]-[description]
 ```
 
 Push the changes to the ``test`` branch in the upstream repository.
@@ -47,7 +47,7 @@ git push origin test
 On GitHub, the Pull Request should now be marked as "Merged". You can delete your local copy of the development branch.
 
 ```
-git branch -d dev/<issue-number>-<description>
+git branch -d dev/[issue]-[description]
 ```
 
 ## Releases
@@ -63,7 +63,7 @@ git merge prod
 
 Resolve any conflicts in the ``test`` branch. Run automated tests and work through any pre-release test scripts to confirm that the HEAD commit in your local ``test`` branch is stable.
 
-Releases are tagged in the ``test`` branch before ``test`` is merged into ``prod``. We use [Semver](http://semver.org/), the gold standard in software version numbering. Version numbers are written as ``v<major>.<minor>.<patch>``, e.g. ``v1.0.5``. Bump the version number in the following files:
+Releases are tagged in the ``test`` branch before ``test`` is merged into ``prod``. We use [Semver](http://semver.org/), the gold standard in software version numbering. Version numbers are written as ``v[major].[minor].[patch]``, e.g. ``v1.0.5``. Bump the version number in the following files:
 
 - ``./CHANGELOG.md``
 - ``./package.json``

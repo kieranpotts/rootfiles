@@ -42,4 +42,4 @@ Please raise an issue before making a pull request. The project maintainers will
 If the project maintainers accept the bug or feature, and if they assign you to work on it, you will need to fork the source code repository and undertake your work in the fork. When you are done, you will submit a pull request to have your changes merged into the main project. Please refer to the [Source Control Workflow](workflow.md) documentation for detailed instructions.
 
 
-[1]: https://github.com/<user>/<project>/issues
+[1]: https://github.com/[user]/[project]/issues

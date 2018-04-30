@@ -15,7 +15,7 @@ As a general rule, each contribution — identified by a unique pull request —
    Download a copy of your origin repository.
 
    ```
-   git clone https://github.com/<your-github-username>/<project>.git
+   git clone https://github.com/[your-github-username]/[project].git
    ```
 
    The copy of the project that now exists on your computer is your "local" repository. This is where you'll do your work. 
@@ -23,7 +23,7 @@ As a general rule, each contribution — identified by a unique pull request —
    When you ran the ``git clone`` command, Git would have automatically added a remote named "origin". You should add another remote that references the "upstream" repository. You'll need this later. From the root directory of your newly cloned local repository, run the following command in your terminal.
 
    ```
-   git remote add upstream https://github.com/<upstream-user>/<project>.git
+   git remote add upstream https://github.com/[upstream-user]/[project].git
    ```
 
 3. ## Checkout
@@ -45,10 +45,10 @@ As a general rule, each contribution — identified by a unique pull request —
    Never make commits directly into the test or production branches. Instead, branch off from the mainline to create a temporary development branch, where you will make your changes. Please use the following naming convention:
 
    ```
-   dev/<issue>-<description>
+   dev/[issue]-[description]
    ```
 
-   ``<issue>`` is the number of the issue that you opened in our issue tracker. ``<description>`` is a concise slug that describes the feature or bug. Example:
+   ``[issue]`` is the number of the issue that you opened in our issue tracker. ``[description]`` is a concise slug that describes the feature or bug. Example:
 
    ```
    dev/21-tweak-line-height-of-headings
@@ -59,14 +59,14 @@ As a general rule, each contribution — identified by a unique pull request —
    Use the following ``git`` commands to create and checkout your development branch.
 
    ```
-   git branch dev/<issue>-<description> test
-   git checkout dev/<issue>-<description> test
+   git branch dev/[issue]-[description] test
+   git checkout dev/[issue]-[description] test
    ```
 
    Or more succinctly:
 
    ```
-   git checkout -b dev/<issue>-<description> test
+   git checkout -b dev/[issue]-[description] test
    ```
 
 5. ## Commit
@@ -76,7 +76,7 @@ As a general rule, each contribution — identified by a unique pull request —
    If you will make substantive changes over a long period, you should make regular commits, organizing your changes in logical iterations. Using the ``-a`` flag on the ``commit`` command will give you the opportunity to extend the commit message — which should be short — with a more detailed description.
 
    ```
-   git add <file1> <file2> ...
+   git add [file1] [file2] [file3]
    git commit -a
    ```
 
@@ -94,7 +94,7 @@ As a general rule, each contribution — identified by a unique pull request —
    Return to your development branch and rebase it on the ``test`` branch. This means that your recent changes will be replayed over the top of any changes that you've just pulled in from the remote upstream repository.
 
    ```
-   git checkout dev/<issue>-<description>
+   git checkout dev/[issue]-[description]
    git rebase test
    ```
 
@@ -113,7 +113,7 @@ As a general rule, each contribution — identified by a unique pull request —
    If you get conflicts during the rebasing process, resolve them, and then continue the rebase.
 
    ```
-   git add <file1> <file2> ...
+   git add [file1] [file2]
    git rebase --continue
    ```
 
@@ -131,7 +131,7 @@ As a general rule, each contribution — identified by a unique pull request —
    After rebasing, push your local changes to your remote origin repository. Because rebasing changes history, you should use ``-f`` or ``--force`` to force-push your commits into the remote
 
    ```
-   git push -f origin dev/<issue>-<description>
+   git push -f origin dev/[issue]-[description]
    ```
 
    If you are working on a long-running project, you should repeat steps 6 and 7 regularly. This will keep your work synchronised with the upstream project, and GitHub will have a backup of your work in case your local repository becomes lost or corrupted.
@@ -146,10 +146,10 @@ As a general rule, each contribution — identified by a unique pull request —
    
    Choose the following for merge:
 
-   - Base repository: ``<upstream-user>/<project>``
+   - Base repository: ``[upstream-user]/[project]``
    - Base branch: ``test``
-   - Head repository: ``<your-github-username>/<project>``
-   - Head branch: ``dev/<issue>-<description>``
+   - Head repository: ``[your-github-username]/[project]``
+   - Head branch: ``dev/[issue]-[description]``
 
    Pull requests should be made to the ``test`` branch of the upstream repository. Choose the appropriate versioned ``test`` branch, such as ``test/v1``, if you are introducing changes to a legacy version of the software. All source changes are merged into and tested in the ``test`` branches. After testing, the project maintainers will release the changes into the production branch — ``prod`` or ``prod/v1`` etc.
 
@@ -164,11 +164,11 @@ As a general rule, each contribution — identified by a unique pull request —
    With everything pushed to the remotes, you can safely delete the temporary development branch from your local repository.
 
    ```
-   git branch -d dev/<issue>-<description>
+   git branch -d dev/[issue]-[description]
    ```
 
    The maintainers of the upstream repository will review your work. If the changes are accepted, they will be merged into the upstream repository. When your PR is eventually closed by the project maintainers, it will be safe for your to delete the development branch from your remote origin repository, too:
 
    ```
-   git push origin :dev/<issue>-<description>
+   git push origin :dev/[issue]-[description]
    ```
