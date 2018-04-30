@@ -22,7 +22,7 @@ Feature requests will remain open in the issue tracker until they are approved o
 
 ## Bug Reports
 
-Before reporting a bug, please search the [issue tracker][1] to check it has not been reported already. Also, please checkout the ``prod`` (production) branch and check that the bug still exists in the very latest iteration of the software. It may have been fixed already.
+Before reporting a bug, please search the [issue tracker][1] to see if the bug has been reported already. Also, please checkout the ``prod`` (production) branch and try to reproduce the error. If the bug does not exist in the very latest iteration of the software, it has already been fixed.
 
 To fix bugs, the project maintainers must be able to reproduce them. A good bug report will therefore include at least one of the following:
 
