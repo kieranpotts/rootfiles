@@ -34,7 +34,7 @@ As a general rule, each contribution — identified by a unique pull request —
    git checkout test
    ```
 
-   If you want to make changes to a legacy release that is still supported, checkout the relevant versioned ``test`` branch. Example:
+   If you want to make changes to a legacy release of the software, checkout the relevant versioned ``test`` branch. Example:
 
    ```
    git checkout test/v1
@@ -56,7 +56,7 @@ As a general rule, each contribution — identified by a unique pull request —
 
    This naming convention helps the project maintainers to manage external contributions, because each pull request will explicitly reference an open issue.
 
-   Use the following ``git`` commands to create and checkout your development branch.
+   Use the following Git commands to create and switch to your development branch.
 
    ```
    git branch dev/[issue]-[description] test
@@ -71,12 +71,18 @@ As a general rule, each contribution — identified by a unique pull request —
 
 5. ## Commit
 
-   Undertake your work.
+   Do your work.
 
-   If you will make substantive changes over a long period, you should make regular commits, organizing your changes in logical iterations. Using the ``-a`` flag on the ``commit`` command will give you the opportunity to extend the commit message — which should be short — with a more detailed description.
+   If you will make substantive changes over a long period, you should make regular commits, organizing your changes in logical iterations.
 
    ```
    git add [file1] [file2] [file3]
+   git commit -m "Change line-height value of document body"
+   ```
+
+   Using the ``-a`` flag on the ``commit`` command will give you the opportunity to extend the commit message — which should be short — with a more detailed description.
+
+   ```
    git commit -a
    ```
 
@@ -84,27 +90,29 @@ As a general rule, each contribution — identified by a unique pull request —
 
 6. ## Synchronize
 
-   Long-lived development branches should be kept synchronized with the project mainline, so that you are always working with the latest iteration of the source code. If it has been a while since you cloned and checked out the project, use the following commands to fetch the latest changes introduced to the mainline ``test`` branch in the upstream repository.
+   Long-lived development branches should be kept synchronized with the project mainline, so that you're always working with the latest iteration of the source code. 
+   
+   Use the following commands to fetch the latest changes introduced to the project mainline.
 
    ```
    git checkout test
    git pull upstream test
    ```
 
-   Return to your development branch and rebase it on the ``test`` branch. This means that your recent changes will be replayed over the top of any changes that you've just pulled in from the remote upstream repository.
+   Now return to your development branch and rebase it on the ``test`` branch. This will replay your changes after the everyone else's changes that you just pulled down. In effect, your changes stay at the tip of your development branch.
 
    ```
    git checkout dev/[issue]-[description]
    git rebase test
    ```
 
-   This is a shortcut to rebase your local development branch over new commits pulled directly from the upstream repository:
+   This is a shortcut to pull and rebase from the upstream repository directly:
 
    ```
    git pull --rebase upstream test
    ```
 
-   Remember, if you are introducing changes to a legacy release, be sure to rebase off the correct versioned ``test`` branch.
+   Remember, if you're introducing changes to a legacy release, be sure to rebase off the appropriate versioned ``test`` branch.
 
    ```
    git pull --rebase upstream test/v1
@@ -117,28 +125,28 @@ As a general rule, each contribution — identified by a unique pull request —
    git rebase --continue
    ```
 
-   Power users might like to try interactive rebasing. Add the ``i`` or ``--interactive`` flag to your ``git rebase`` commands. You will jump into an editing buffer that will give you the opportunity to clean up your commit history. You can edit and remove individual commits, split them up, reorder them, and even squash some together. For each commit that you made, you can choose to:
+   Power users might like to try interactive rebasing. Add the ``i`` or ``--interactive`` flag to your ``git rebase`` commands. You will jump into an editing buffer that will give you the opportunity to clean up your commit history. You can edit and remove individual commits, split them up, reorder them, and even squash some together. For each commit that you made, you can choose to **pick**, **squash*, **edit**, or **drop**.
 
-   - **Pick**: This is the default behaviour that occurs when you don't do interactive rebasing. It attempts to merge the commit, and will get the opportunity to resolve any conflicts that Git can't handle itself.
+   - **Pick**: This is the default behaviour that occurs when you don't do interactive rebasing. It attempts to merge the commit, and you'll be asked to manually resolve any conflicts that Git can't handle itself.
    - **Squash**: A squashed commit will have its changes folded into the contents of the preceding commit.
-   - **Edit**: The rebasing process will stop and return you to the shell, with the local filesystem tree reflecting the project's state at the selected commit. The original commit's changes will be staged, ready for inclusion when you run ``git commit``. You can make changes to the original commit, before committing it again. And you can introduce additional commits. Run ``git rebase --continue`` when you are done, and you'll be returned to the rebasing process where you left off.
+   - **Edit**: The rebasing process will stop and return you to the shell, with the local filesystem tree reflecting the project's state at the selected commit. The original commit's changes will be staged, ready for inclusion when you run ``git commit``. You can make changes to the original commit, before committing it again. And you can introduce additional commits. Run ``git rebase --continue`` when you're done. You'll be returned to the rebasing process where you left off.
    - **Drop**: This option removes a commit. Use this cautiously. It will cause merge conflicts if any later commits build on the dropped changes.
 
 7. ## Push
 
    The process of rebasing gives you the opportunity to sort out conflicts between your work and other people's changes that were recently introduced to the project mainline. The end result is that your final PR will have a nice clean diff, so your work can be integrated faster.
 
-   After rebasing, push your local changes to your remote origin repository. Because rebasing changes history, you should use ``-f`` or ``--force`` to force-push your commits into the remote
+   After rebasing, push your local changes to your remote origin repository. Because rebasing changes history, you should use ``-f`` or ``--force`` to force-push your commits into the remote.
 
    ```
    git push -f origin dev/[issue]-[description]
    ```
 
-   If you are working on a long-running project, you should repeat steps 6 and 7 regularly. This will keep your work synchronised with the upstream project, and GitHub will have a backup of your work in case your local repository becomes lost or corrupted.
+   If you're working on a long-running project, you should repeat steps six and seven often. Doing so will keep your work synchronised with the upstream project, which means that your work can't diverge too far from the mainline to introduce major merge conflicts later. And GitHub will have a backup of your work in case your local repository becomes lost or corrupted.
 
 8. ## Pull Request
 
-   When your work is complete and with everything pushed to your origin repository, it is time to have your work merged into the project's upstream repository.
+   When your work is done, and with everything pushed to your origin repository, it is time to have your changes merged into the project mainline.
 
    Go to the Pull Requests section of the upstream repository: https://github.com/[upstream-user]/[project]/pulls.
    
@@ -151,23 +159,23 @@ As a general rule, each contribution — identified by a unique pull request —
    - Head repository: ``[your-github-username]/[project]``
    - Head branch: ``dev/[issue]-[description]``
 
-   Pull requests should be made to the ``test`` branch of the upstream repository. Choose the appropriate versioned ``test`` branch, such as ``test/v1``, if you are introducing changes to a legacy version of the software. All source changes are merged into and tested in the ``test`` branches. After testing, the project maintainers will release the changes into the production branch — ``prod`` or ``prod/v1`` etc.
+   Pull requests should be made to the ``test`` branch of the upstream repository. Remember tohoose the appropriate versioned ``test`` branch, such as ``test/v1``, if you're making changes to a legacy version of the software.
 
    Click the "Create pull request" button.
 
-   Provide a concise but meaningful title for your PR. Leave a message, which must at least contain a link to the original issue in the project's issue tracker. Be sure to leave checked the option to "allow edits from maintainers" and click the "Create pull request" button.
+   Provide a concise but meaningful title for your PR. Leave a message, which must at the very least contain a link to the original issue in the project's issue tracker. Be sure to leave checked the option to "allow edits from maintainers".
 
-   By opening a pull request, you agree to this project's [Contributor License Agreement](cla.md).
+   **By opening a pull request, you agree to this project's [Contributor License Agreement](cla.md).**
 
 9. ## Tidy Up
 
-   With everything pushed to the remotes, you can safely delete the temporary development branch from your local repository.
+   With everything pushed to the remotes, you can safely delete the development branch from your local repository.
 
    ```
    git branch -d dev/[issue]-[description]
    ```
 
-   The maintainers of the upstream repository will review your work. If the changes are accepted, they will be merged into the upstream repository. When your PR is eventually closed by the project maintainers, it will be safe for your to delete the development branch from your remote origin repository, too:
+   The maintainers of the upstream repository will review your work. If the changes are accepted, they will be merged into the upstream repository. When this has been done and the your PR has been closed by the project maintainers, it will be safe for your to delete the development branch from your remote origin repository, too. You can do this via the GitHub UI or from your local machine with the following command:
 
    ```
    git push origin :dev/[issue]-[description]
