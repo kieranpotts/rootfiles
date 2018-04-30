@@ -1,4 +1,4 @@
-# Workflow
+# Soure Control Workflow
 
 The fork-and-branch workflow is used to manage changes to this project's source code. This allows individual contributors to work in isolation without interfering with anyone else's work.
 
