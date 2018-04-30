@@ -4,8 +4,6 @@ Please use the following fork-and-branch workflow to make contributions to this 
 
 As a general rule, each contribution — identified by a unique pull request — should be focused. Try not to mix multiple orthogonal changes together. And most changes should have a corresponding test case to go along with it.
 
-TESTING TESTING...
-
 1. ## Fork
 
    From this project's homepage on GitHub, click "Fork". 
@@ -41,15 +39,6 @@ TESTING TESTING...
    ```
    git checkout test/v1
    ```
-
-   Pull down the latest contents of this branch from your origin repository. This will give you the very latest changes introduced to the project, including unreleased changes.
-
-   ```
-   git fetch origin
-   git merge origin
-   ```
-
-   These two commands are equivalent to ``git pull origin test``.
 
 4. ## Branch
 
@@ -115,6 +104,12 @@ TESTING TESTING...
    git pull --rebase upstream test
    ```
 
+   Remember, if you are introducing changes to a legacy release, be sure to rebase off the correct versioned ``test`` branch.
+
+   ```
+   git pull --rebase upstream test/v1
+   ```
+
    If you get conflicts during the rebasing process, resolve them, and then continue the rebase.
 
    ```
@@ -156,7 +151,7 @@ TESTING TESTING...
    - Head repository: ``<your-github-username>/<project>``
    - Head branch: ``dev/<issue>-<description>``
 
-   Pull requests should be made to the ``test`` branch of the upstream repository. All source changes are merged into and tested on this branch. After testing, the project maintainers will release the changes into the production branch — ``prod``.
+   Pull requests should be made to the ``test`` branch of the upstream repository. Choose the appropriate versioned ``test`` branch, such as ``test/v1``, if you are introducing changes to a legacy version of the software. All source changes are merged into and tested in the ``test`` branches. After testing, the project maintainers will release the changes into the production branch — ``prod`` or ``prod/v1`` etc.
 
    Click the "Create pull request" button.
 
