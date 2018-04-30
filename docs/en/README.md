@@ -20,3 +20,7 @@
 - [Source Control Workflow](workflow.md)
 - [Contributor License Agreement](cla.md)
 - [Code of Conduct](code_of_conduct.md)
+
+-—
+
+[Notes for Project Maintainers](maintainers.md)
