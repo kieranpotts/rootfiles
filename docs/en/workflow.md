@@ -34,7 +34,7 @@ As a general rule, each contribution — identified by a unique pull request —
    git checkout test
    ```
 
-   If you want to make changes to a previous major release, checkout the relevant versioned branch. Example:
+   If you want to make changes to a legacy release that is still supported, checkout the relevant versioned ``test`` branch. Example:
 
    ```
    git checkout test/v1
@@ -98,7 +98,7 @@ As a general rule, each contribution — identified by a unique pull request —
    git rebase test
    ```
 
-   This is a shortcut to rebase your local development branch over new commits pulled from the upstream repository:
+   This is a shortcut to rebase your local development branch over new commits pulled directly from the upstream repository:
 
    ```
    git pull --rebase upstream test
@@ -117,16 +117,16 @@ As a general rule, each contribution — identified by a unique pull request —
    git rebase --continue
    ```
 
-   Power users might like to try interactive rebasing. Add the ``i`` or ``--interactive`` flag to your ``git rebase`` commands. You will jump into an editing buffer that will give you the opportunity to clean up your commit history. You can edit and remove individual commits, split them up, reorder them, and even squash some together. For each commit in your local development branch, you can choose to:
+   Power users might like to try interactive rebasing. Add the ``i`` or ``--interactive`` flag to your ``git rebase`` commands. You will jump into an editing buffer that will give you the opportunity to clean up your commit history. You can edit and remove individual commits, split them up, reorder them, and even squash some together. For each commit that you made, you can choose to:
 
-   - **pick**: This is the default behaviour that occurs when you don't do interactive rebasing. It attempts to merge the commit, and will give you the opportunity to resolve any conflicts that Git can't handle itself.
-   - **squash**: A squashed commit will have its changes folded into the contents of the preceding commit.
-   - **edit**: The rebasing process will stop and return you to the shell, with the local filesystem tree reflecting the project's state at the selected commit. The index will have the original commit's changes already staged, ready for inclusion when you run ``git commit``. You can make further changes before committing, and you can make additional commits. Run ``git rebase --continue`` when you are finished editing the original commit. You'll be returned to the rebasing process.
-   - **(drop)**: This option removes a commit. Use this optional cautiously. It will cause merge conflicts if any later commits build on the dropped changes.
+   - **Pick**: This is the default behaviour that occurs when you don't do interactive rebasing. It attempts to merge the commit, and will get the opportunity to resolve any conflicts that Git can't handle itself.
+   - **Squash**: A squashed commit will have its changes folded into the contents of the preceding commit.
+   - **Edit**: The rebasing process will stop and return you to the shell, with the local filesystem tree reflecting the project's state at the selected commit. The original commit's changes will be staged, ready for inclusion when you run ``git commit``. You can make changes to the original commit, before committing it again. And you can introduce additional commits. Run ``git rebase --continue`` when you are done, and you'll be returned to the rebasing process where you left off.
+   - **Drop**: This option removes a commit. Use this cautiously. It will cause merge conflicts if any later commits build on the dropped changes.
 
 7. ## Push
 
-   The process of rebasing gives you the opportunity to sort out conflicts between your work and other people's changes recently introduced to the project mainline. The end result is that your final PR will have a nice clean diff, so your work can be integrated faster.
+   The process of rebasing gives you the opportunity to sort out conflicts between your work and other people's changes that were recently introduced to the project mainline. The end result is that your final PR will have a nice clean diff, so your work can be integrated faster.
 
    After rebasing, push your local changes to your remote origin repository. Because rebasing changes history, you should use ``-f`` or ``--force`` to force-push your commits into the remote
 
@@ -140,7 +140,7 @@ As a general rule, each contribution — identified by a unique pull request —
 
    When your work is complete and with everything pushed to your origin repository, it is time to have your work merged into the project's upstream repository.
 
-   Go to the Pull Requests section of the upstream repository: https://github.com/<upstream-user>/<project>/pulls.
+   Go to the Pull Requests section of the upstream repository: https://github.com/[upstream-user]/[project]/pulls.
    
    Click the "New pull request" button. Click "Compare across forks".
    
