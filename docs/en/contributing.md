@@ -39,7 +39,7 @@ The ultimate way to contribute to this project — indeed, to _any_ open source 
 
 Please raise an issue before making a pull request. The project maintainers will review your bug report or feature request, and they will accept or reject it before someone spends time implementing the fix or enhancement. Please make a note whether you would be willing to have the issue assigned to you to resolve.
 
-If the project maintainers accept the bug or feature, and if they assign you to work on it, you will need to checkout a clone of the source code repository and undertake your work in your fork. When you are done, you will submit a pull request to have your changes merged into the main project repository. Please refer to the [Source Control Workflow](workflow.md) documentation for detailed instructions.
+If the project maintainers accept the bug or feature, and if they assign you to work on it, you will need to fork the source code repository and undertake your work in the fork. When you are done, you will submit a pull request to have your changes merged into the main project repository. Please refer to the [Source Control Workflow](workflow.md) documentation for detailed instructions.
 
 
 [1]: https://github.com/<user>/<project>/issues
