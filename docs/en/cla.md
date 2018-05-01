@@ -2,7 +2,7 @@
 
 By issuing a pull request (PR) to this project's GitHub repository, you accept and agree to the following terms and conditions regarding your contribution, which may include: software, bug fixes, configuration changes, documentation, test cases, and any other materials.
 
-You agree that your contribution may be distributed under the terms of the [MIT license][mit], with the exception of project documentation that you agree may be distributed under the terms of the [Creative Commons Attribution 4.0 International License][cc].
+You agree that your contribution may be distributed under the terms of the [MIT License][mit], with the exception of project documentation that you agree may be distributed under the terms of the [Creative Commons Attribution 4.0 International License][cc].
 
 You certify that your contribution is either: 
 
