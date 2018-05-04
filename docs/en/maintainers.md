@@ -10,7 +10,7 @@ If the changes are small and can be handled automatically, the merge can be unde
 
 The following instructions assume that the upstream remote is referenced as "origin" in your local clone.
 
-In your local repository, fetch and merge the latest works in the ``test`` branch.
+In your local repository, fetch and merge the latest work in the ``test`` branch.
 
 ```
 git checkout test
@@ -63,7 +63,7 @@ git merge prod
 
 Resolve any conflicts in the ``test`` branch. Run automated tests and work through any pre-release test scripts to confirm that the HEAD commit in your local ``test`` branch is stable.
 
-Releases are tagged in the ``test`` branch before ``test`` is merged into ``prod``. We use [Semver](http://semver.org/), the gold standard in software version numbering. Version numbers are written as ``v[major].[minor].[patch]``, e.g. ``v1.0.5``. Bump the version number in the following files:
+Releases are tagged in the ``test`` branch before ``test`` is merged into ``prod``. We use [Semver](http://semver.org/), the gold standard in software version numbering. Bump the version number in the following files:
 
 - ``./CHANGELOG.md``
 - ``./package.json``
@@ -76,7 +76,7 @@ Apply all of these changes in a single commit that is dedicated to bumping the v
 git commit -m "Preparing v1.0.0"
 ```
 
-Create an annotated tag.
+Now create an annotated tag.
 
 ```
 git tag -a v1.0.0 -m "Tagging v1.0.0"
@@ -100,3 +100,5 @@ Push the changes, including the new tags, to the ``prod`` branch in the upstream
 ```
 git push --tags origin prod
 ```
+
+Finally, from Github's index page for the upstream repository, go to "Releases" and click "Draft a new release". Select the new version tag on the ``prod`` branch. The release title should match the version number, e.g. "v1.2.34". Optionally, write a short summary of the changes included in the release, and click "Publish release".
