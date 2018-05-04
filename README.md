@@ -1,4 +1,4 @@
-[![Project Name](https://rawgit.com/kieranpotts/rootfiles/prod/docs/img/logo.svg)](https://www.example.com/)
+[![Project Name](https://cdn.rawgit.com/kieranpotts/rootfiles/prod/docs/img/logo.svg)](https://www.example.com/)
 
 # Repository Title
 > Optional tagline here.
