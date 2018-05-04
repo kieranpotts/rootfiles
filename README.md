@@ -14,7 +14,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis dolor no
 
 Quisque fringilla elit eu auctor vehicula. Nulla at tincidunt risus, nec tristique odio. Mauris vehicula orci a tortor tincidunt, consectetur ornare massa rhoncus. Pellentesque eu augue tellus. Aenean cursus dapibus magna.
 
-**[Read the documentation here.](docs/en/)**
+**[Read the documentation here.](docs/en/index.md)**
 
 ---
 
