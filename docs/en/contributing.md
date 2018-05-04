@@ -2,15 +2,22 @@
 
 This is a free and open source software project. It is made possible by generous contributions from software engineers, both expert and novice, from around the world. 
 
-There are three ways that you can get involved, too:
+There are four ways that you can get involved, too:
 
+- Ask questions
 - Request features
 - Report bugs
 - Contribute source code, tests, and documentation
 
-All contributions – bug reports, feature requests, and source changes – are managed via the project's [issue tracker][1]. 
+All contributions – questions, bug reports, feature requests, and source changes – are managed via the project's [issue tracker][1]. This is where our community of contributors congregates. We don't have forums, social feeds, or IRC channels. Just the issue tracker.
 
 By participating in this project you accept the [Contributor License Agreement](cla.md) and you agree to respect the [Code of Conduct](code_of_conduct.md)
+
+## Ask Questions
+
+If you have any questions about this project, please post it on the [issue tracker][1].
+
+If you require technical support, please search for the answer on the [issue tracker][1] and on popular external Q&A sites such as [StackOverflow](https://stackoverflow.com/). If you can't find the answer, do go ahead and open a new issue in the tracker.
 
 ## Feature Requests
 
