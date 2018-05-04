@@ -1,7 +1,7 @@
 [![Project Name](https://cdn.rawgit.com/kieranpotts/rootfiles/prod/docs/img/logo.svg)](https://www.example.com/)
 
 # Repository Title
-> Optional tagline here.
+**Optional tagline here.**
 
 [![Latest](https://img.shields.io/github/release/user/repo.svg?style=for-the-badge&label=Latest&colorA=777777&colorB=bbbbbb&maxAge=3600)](https://github.com/user/repo/releases)
 [![Issues](https://img.shields.io/github/issues/user/repo.svg?style=for-the-badge&label=Issues&colorA=777777&colorB=bbbbbb&maxAge=3600)](https://github.com/user/repo/issues)
