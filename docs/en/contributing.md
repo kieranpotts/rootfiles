@@ -6,7 +6,7 @@ There are three ways that you can get involved, too:
 
 - Request features
 - Report bugs
-- Contribute source code, test, and documentation
+- Contribute source code, tests, and documentation
 
 All contributions – bug reports, feature requests, and source changes – are managed via the project's [issue tracker][1]. 
 
@@ -22,16 +22,16 @@ Feature requests will remain open in the issue tracker until they are approved o
 
 ## Bug Reports
 
-Before reporting a bug, please search the [issue tracker][1] to see if the bug has been reported already. Also, please checkout the ``prod`` (production) branch and try to reproduce the error. If the bug does not exist in the very latest iteration of the software, it has already been fixed.
+Before reporting a bug, please search the [issue tracker][1] to see if the bug has been reported already. Also, please checkout the ``test`` branch and try to reproduce the error. The ``test`` branch represents the most recent iteration of the software. If the bug does not exist here, it has already been fixed.
 
-To fix bugs, the project maintainers must be able to reproduce them. A good bug report will therefore include at least one of the following:
+To fix a bug, the project maintainers must be able to reproduce it. A good bug report will therefore include at least one of the following:
 
 - Detailed step-by-step instructions to reproduce the error
 - A live example of the problem, e.g. a [Codepen](http://codepen.io/)
 - A screenshot, if reporting a visual regression
 - A failing test case
 
-Describe the outcome that you expected, and what's different about the actual outcome. If relevant, please provide details of the browser name, version number, and operating system in which you experienced the error. If you think you can identify the source of the bug, such as a specific line or block of code, please include this information in your bug report, too.
+Describe the outcome that you expected, and what's different about the actual outcome. If relevant, provide details of the browser name, version number, and operating system in which you experienced the error. If you think you can identify the source of the bug, such as a specific line or block of code, please include this information in your bug report, too.
 
 ## Source Changes
 
