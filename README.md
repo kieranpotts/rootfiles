@@ -5,7 +5,7 @@
 
 [![Latest](https://img.shields.io/github/release/user/repo.svg?style=for-the-badge&label=Latest&colorA=777777&colorB=bbbbbb&maxAge=3600)](https://github.com/user/repo/releases)
 [![Issues](https://img.shields.io/github/issues/user/repo.svg?style=for-the-badge&label=Issues&colorA=777777&colorB=bbbbbb&maxAge=3600)](https://github.com/user/repo/issues)
-[![Pull Requests](https://img.shields.io/github/issues-pr/kieranpotts/rootfiles.svg?style=for-the-badge&label=Pull%20Requests&colorA=777777&colorB=bbbbbb&maxAge=3600)](https://github.com/user/repo/pulls)
+[![Pull Requests](https://img.shields.io/github/issues-pr/user/repo.svg?style=for-the-badge&label=Pull%20Requests&colorA=777777&colorB=bbbbbb&maxAge=3600)](https://github.com/user/repo/pulls)
 [![Travis](https://img.shields.io/travis/user/repo.svg?style=for-the-badge&label=Build&colorA=777777&colorB=bbbbbb&maxAge=3600)](https://travis-ci.org/user/repo)
 
 Fusce lacinia felis ultricies gravida vestibulum. Nam egestas venenatis malesuada. Quisque sed dui sit amet risus egestas imperdiet. Aliquam erat felis, rhoncus sed eleifend a, auctor in lectus.
