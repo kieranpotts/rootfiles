@@ -11,7 +11,7 @@ There are four ways that you can get involved, too:
 
 All contributions – questions, bug reports, feature requests, and source changes – are managed via the project's [issue tracker][1]. This is where our community of contributors congregates. We don't have forums, social feeds, or IRC channels. Just the issue tracker.
 
-By participating in this project you accept the [Contributor License Agreement](cla.md) and you agree to respect the [Code of Conduct](code_of_conduct.md)
+By participating in this project you accept the [Contributor License Agreement](cla.md) and you agree to respect the [Code of Conduct](code-of-conduct.md)
 
 ## Ask Questions
 

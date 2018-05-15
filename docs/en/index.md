@@ -19,7 +19,7 @@
 - [How to Contribute](contributing.md)
 - [Source Control Workflow](workflow.md)
 - [Contributor License Agreement](cla.md)
-- [Code of Conduct](code_of_conduct.md)
+- [Code of Conduct](code-of-conduct.md)
 
 ****
 
