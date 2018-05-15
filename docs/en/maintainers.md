@@ -54,7 +54,7 @@ git branch -d dev/[issue]-[description]
 
 When the HEAD commit in the ``test`` branch is known to be stable and deployable, a new version of the software can be released.
 
-First, do a reverse merge, merging ``prod`` backwards into ``test``.
+First, do a reverse merge, merging ``prod`` backwards into ``test``. The purpose here is to capture any recent hotfixes that may have gone straight out to production.
 
 ```
 git checkout test
