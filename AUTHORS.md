@@ -1,6 +1,6 @@
 # Authors
 
-- Kieran Potts <hello@kieranpotts.com> (https://kieranpotts.com)
+- Kieran Potts <hello@kieranpotts.com> (https://www.kieranpotts.com/)
 - xxx
 - xxx
 - xxx
