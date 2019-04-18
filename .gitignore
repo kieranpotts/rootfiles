@@ -1,11 +1,16 @@
-# Exclude the following directories and
-# file types from source control:
+# Exclude from source control all files and
+# directories starting with an underscore.
 
 _*
+
+# Exclude the following file types.
 
 *.bak
 *.log
 *.swp
+
+# Exclude files or directories
+# with the following names.
 
 .cvs
 .DS_Store
@@ -16,16 +21,8 @@ _*
 .settings
 .svn
 .tmp
-.todo
 .vagrant
 
 Thumbs.db
-
-/api/
-/build/
-/coverage/
-/dist/
-/nbproject/
-/node_modules/
-/tmp/
-/vendor/
+nbproject
+node_modules
