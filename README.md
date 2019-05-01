@@ -42,13 +42,12 @@ Quisque fringilla elit eu auctor vehicula. Nulla at tincidunt risus, nec tristiq
 
 #### Contributing 
 
+* [Change Management Workflow](docs/en/workflow.md)
 * [How to Contribute](docs/en/contributing.md)
-* [Workflow](docs/en/workflow.md)
 * [Filesystem Structure](docs/en/structure.md)
 * [Style Guide](docs/en/style-guide.md)
 * [Building](docs/en/build.md)
 * [Testing](docs/en/testing.md)
-* [New Releases](docs/en/releasing.md)
 * [Contributor License Agreement](docs/en/cla.md)
 * [Code of Conduct](docs/en/code-of-conduct.md)
 * [Acknowledgements](docs/en/acknowledgements.md)

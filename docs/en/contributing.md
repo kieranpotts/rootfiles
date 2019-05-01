@@ -12,6 +12,8 @@ All contributions – questions, bug reports and feature suggestions – are man
 
 Please tag your issues "question", "bug" or "idea" as appropriate.
 
+The ultimate way to contribute to this project — indeed, to _any_ open source software project — is to contribute material changes to its source code, tests and documentation. When opening a new issue, please make a note whether you are able yourself to fix the reported bug or implemented the suggested feature. Please open an issue and wait for a response from the project's maintainers _before_ you undertake any work. If the issue is approved you should follow the [SrcFlow](https://github.com/srcflow/srcflow) branching and merging strategy to fulfil the necessary changes.
+
 By participating in this project you accept the [Contributor License Agreement](cla.md) and you agree to respect the [Code of Conduct](code-of-conduct.md).
 
 #### Ask Questions
@@ -42,9 +44,5 @@ Ideas for new features and other enhancements to the project may also be submitt
 Take a moment to consider whether your idea fits within the scope and aims of the project, and what are the benefits versus costs of adding the feature. Make a note if you are willing to contribute the required changes yourself.
 
 Feature suggestions will remain open in the issue tracker until they are approved or rejected by the project maintainers, who may be influenced by :+1: reactions and comments by the community.
-
-#### See Also
-
-* [Change Management Workflow](workflow.md)
 
 [1]: https://github.com/[user]/[project]/issues
