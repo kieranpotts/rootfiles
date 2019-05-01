@@ -3,10 +3,12 @@
 
 # Repository Title
 
+<!--
 [![Latest](https://img.shields.io/github/release/user/repo.svg?style=for-the-badge&label=Latest&colorA=777777&colorB=bbbbbb&maxAge=3600)](https://github.com/user/repo/releases)
 [![Issues](https://img.shields.io/github/issues/user/repo.svg?style=for-the-badge&label=Issues&colorA=777777&colorB=bbbbbb&maxAge=3600)](https://github.com/user/repo/issues)
 [![Pull Requests](https://img.shields.io/github/issues-pr/user/repo.svg?style=for-the-badge&label=Pull%20Requests&colorA=777777&colorB=bbbbbb&maxAge=3600)](https://github.com/user/repo/pulls)
 [![Travis](https://img.shields.io/travis/user/repo.svg?style=for-the-badge&label=Build&colorA=777777&colorB=bbbbbb&maxAge=3600)](https://travis-ci.org/user/repo)
+-->
 
 **Optional tagline here.**
 
