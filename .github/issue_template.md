@@ -1,30 +1,30 @@
-- [x] I am reporting a bug
-- [ ] I have an idea to improve this software
-- [ ] I need technical support
+* [x] I am reporting a bug
+* [ ] I have an idea to improve this software
+* [ ] I need technical support
 
-Please use the following template for bug reports:
+> Please use the following template for bug reports. Delete sections and content that do not apply.
 
 #### Version
-> What version of this software are you using?
+> What version of this software are you using? Please check ``[x]`` one.
 
-- [ ] Pre-release
-- [ ] v1.*
-- [ ] v2.*
-- [ ] v3.*
+* [ ] Pre-release
+* [ ] v1.*
+* [ ] v2.*
+* [ ] v3.*
 
 #### Environments
 > In which host environments are you running the code?
 
-- [ ] Web browser
-  - Device: [e.g. iPhone 6, HP Envy]
-  - OS: [e.g. Android, iOS, Windows 10]
-  - Browser: [e.g. Stock browser, Chrome, Safari]
-  - Version: [e.g. v22]
+* [ ] Web browser
+      * Device: [e.g. iPhone 6, HP Envy]
+      * OS: [e.g. Android, iOS, Windows 10]
+      * Browser: [e.g. Stock browser, Chrome, Safari]
+      * Version: [e.g. v22]
 
-- [ ] Node.js
-  - OS: [e.g. macOS Mojave, Windows 10]
-  - Version: [e.g. v8.9.0]
-  - Package manager: [e.g. NPM, Yarn]
+* [ ] Node.js
+      * OS: [e.g. macOS Mojave, Windows 10]
+      * Version: [e.g. v8.9.0]
+      * Package manager: [e.g. NPM, Yarn]
 
 #### Steps
 > What steps should we take to reproduce the error?
@@ -43,9 +43,8 @@ Please use the following template for bug reports:
 
 #### Expected Behaviour
 
-I expected that by going to the page '...' and pressing the button '...' then '...' would happen.
+I expected that by going to the page ... and pressing the button ... then ... would happen.
 
 #### Actual Behaviour
 
-Instead of '...', what I saw was that '...' happened instead.
-
+Instead of ..., what I saw was that ... happened instead.
