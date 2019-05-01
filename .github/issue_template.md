@@ -1,15 +1,11 @@
-Please mark one of the following with an [x]:
-
-- [ ] I am reporting a bug
+- [x] I am reporting a bug
 - [ ] I have an idea to improve this software
 - [ ] I need technical support
 
-
-## Bug Reports
-> If you are reporting a bug, please provide evidence of the error, such as a screenshot or failing test case, or steps to reproduce it. Describe the outcome that you expected, and what's different about the actual outcome. Are you able to submit a patch for this bug yourself?
+Please use the following template for bug reports:
 
 #### Version
-> What version of this software are you using? Check one.
+> What version of this software are you using?
 
 - [ ] Pre-release
 - [ ] v1.*
@@ -33,9 +29,9 @@ Please mark one of the following with an [x]:
 #### Steps
 > What steps should we take to reproduce the error?
 
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
+1. Go to ...
+2. Click on ...
+3. Scroll down to ...
 4. Refresh the page and wait 5 secs
 5. Pour tepid water over
 
@@ -53,10 +49,3 @@ I expected that by going to the page '...' and pressing the button '...' then '.
 
 Instead of '...', what I saw was that '...' happened instead.
 
-
-## Feature Requests
-> If you have an idea for a new feature, take a moment to consider whether it fits the scope and aims of the project, and what are the benefits versus costs of adding the feature. Are you able to contribute the required changes yourself?
-
-
-## Technical Support
-> If you need technical support, please first search closed issues and popular external Q&A sites such as [StackOverflow](https://stackoverflow.com/). If a solution to the problem can't be found elsewhere, please go ahead and explain the technical problem below.
