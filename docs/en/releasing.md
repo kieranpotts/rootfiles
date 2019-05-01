@@ -26,7 +26,7 @@ $ git checkout -b issue-[number]/[description] dev
 Pull in the work to be reviewed from the relevant remote repository. This may be a fork of the upstream repository — rather than "origin" — if the PR is from an external contributor.
 
 ```sh
-$ git pull git://github.com/[username]/[repo].git issue-[number]/[description]
+$ git pull git@github.com:[username]/[repo].git issue-[number]/[description]
 ```
 
 Rebase the issue branch on ``dev``.
