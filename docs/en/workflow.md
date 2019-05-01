@@ -57,7 +57,7 @@ Ideally, each contribution will be represented by:
     Download a copy of your origin repository.
 
     ```sh
-    $ git clone https://github.com/[your-github-username]/[project].git
+    $ git clone git@github.com:[your-github-username]/[project].git
     ```
 
     The copy of the project that now exists on your computer is your "local" repository. This is where you'll do your work. 
@@ -65,7 +65,7 @@ Ideally, each contribution will be represented by:
     When you ran the ``git clone`` command, Git would have automatically added a remote named "origin". You should add another remote that references the "upstream" repository. You'll need this later. From the root directory of your newly cloned local repository, run the following command in your terminal.
 
     ```sh
-    $ git remote add upstream https://github.com/[upstream-user]/[project].git
+    $ git remote add upstream git@github.com:[upstream-user]/[project].git
     ```
 
 4.  **Checkout**
