@@ -16,6 +16,27 @@ Quisque fringilla elit eu auctor vehicula. Nulla at tincidunt risus, nec tristiq
 
 **[Read the documentation here.](docs/en/index.md)**
 
+
+# Authors
+
+- Kieran Potts <hello@kieranpotts.com> (https://www.kieranpotts.com/)
+- xxx
+- xxx
+- xxx
+
+
+
+# Acknowledgements
+
+This project builds on the great work of other open source software projects, notably:
+
+- [Project A](http://example.com/)
+- [Project B](http://example.com/)
+- [Project C](http://example.com/)
+- [Project D](http://example.com/)
+- [Project E](http://example.com/)
+
+
 ---
 
 Maintained by [Your Name](https://example.com/) \
