@@ -1,52 +1,50 @@
 # How to Contribute
 
-This is a free and open source software project. It is made possible by generous contributions from software engineers, both expert and novice, from around the world. 
+This is a free and open source software project. It is made possible by generous contributions from software engineers, both expert and novice, from around the world.
 
-There are four ways that you can get involved, too:
+There are three ways that you can get involved, too:
 
-- Ask questions
-- Request features
-- Report bugs
-- Contribute source code, tests, and documentation
+* Ask questions
+* Report bugs
+* Suggest features
 
-All contributions – questions, bug reports, feature requests, and source changes – are managed via the project's [issue tracker][1]. This is where our community of contributors congregates. We don't have forums, social feeds, or IRC channels. Just the issue tracker.
+All contributions – questions, bug reports and feature suggestions – are managed via the project's [issue tracker][issues]. This is where our community of contributors congregates. We don't have a forum, social feed or IRC channel – just the issue tracker.
 
-By participating in this project you accept the [Contributor License Agreement](cla.md) and you agree to respect the [Code of Conduct](code-of-conduct.md)
+Please tag your issues "question", "bug" or "idea" as appropriate.
 
-## Ask Questions
+By participating in this project you accept the [Contributor License Agreement](cla.md) and you agree to respect the [Code of Conduct](code-of-conduct.md).
 
-If you have any questions about this project, please post it on the [issue tracker][1].
+#### Ask Questions
 
-If you require technical support, please search for the answer on the [issue tracker][1] and on popular external Q&A sites such as [StackOverflow](https://stackoverflow.com/). If you can't find the answer, do go ahead and open a new issue in the tracker.
+Everyone is welcome to ask questions and initiate discussions about the project via the issue tracker.
 
-## Feature Requests
+If you require technical support, please first search for an answer in the issue tracker and on popular external Q&A sites such as [StackOverflow](https://stackoverflow.com/). If you can't find a solution, please go ahead and ask your question by opening a new issue.
 
-Feature requests may be submitted via the [issue tracker][1].
+#### Bug Reports
 
-Take a moment to consider whether your idea fits within the scope and aims of the project, and what are the benefits versus costs of adding the feature.
+Before reporting a bug, please first search the issue tracker to see if the error has been reported previously. If not, checkout the ``dev`` branch and try to reproduce the error there. The ``dev`` branch represents the most recent increment of the software, including unreleased increments. If the error cannot be reproduced in the ``dev`` branch, most likely it has already been resolved.
 
-Feature requests will remain open in the issue tracker until they are approved or rejected by the project maintainers, who will be influenced by :+1: reactions and comments by the community.
+To fix bugs, the project maintainers must be able to reproduce them. A good bug report will therefore include at least one of the following:
 
-## Bug Reports
+* Detailed step-by-step instructions to reproduce the error
+* A live example of the problem, e.g. a [Codepen](http://codepen.io/)
+* A screenshot, if reporting a visual regression
+* A failing test case or demo
 
-Before reporting a bug, please search the [issue tracker][1] to see if the bug has been reported already. Also, please checkout the ``test`` branch and try to reproduce the error. The ``test`` branch represents the most recent iteration of the software. If the bug does not exist here, it has already been fixed.
+Describe the outcome that you expected, and what's different about the actual outcome. If relevant, provide details of the browser name, version number and operating system in which you experienced the error. If you think you can identify the source of the bug, such as a specific line or block of code, please include this information in your bug report.
 
-To fix a bug, the project maintainers must be able to reproduce it. A good bug report will therefore include at least one of the following:
+Make a note if you are able to contribute a patch for the bug yourself.
 
-- Detailed step-by-step instructions to reproduce the error
-- A live example of the problem, e.g. a [Codepen](http://codepen.io/)
-- A screenshot, if reporting a visual regression
-- A failing test case
+#### Feature Requests
 
-Describe the outcome that you expected, and what's different about the actual outcome. If relevant, provide details of the browser name, version number, and operating system in which you experienced the error. If you think you can identify the source of the bug, such as a specific line or block of code, please include this information in your bug report, too.
+Ideas for new features and other enhancements to the project may also be submitted via the issue tracker.
 
-## Source Changes
+Take a moment to consider whether your idea fits within the scope and aims of the project, and what are the benefits versus costs of adding the feature. Make a note if you are willing to contribute the required changes yourself.
 
-The ultimate way to contribute to this project — indeed, to _any_ open source software project — is to contribute material changes to its source code, tests, and documentation. This is done using the pull request (PR) system.
+Feature suggestions will remain open in the issue tracker until they are approved or rejected by the project maintainers, who may be influenced by :+1: reactions and comments by the community.
 
-Please raise an issue before making a pull request. The project maintainers will review your bug report or feature request, and they will accept or reject it before someone spends time implementing the fix or enhancement. Please make a note whether you would be willing to have the issue assigned to you to resolve.
+#### See Also
 
-If the project maintainers accept the bug or feature, and if they assign you to work on it, you will need to fork the source code repository and undertake your work in the fork. When you are done, you will submit a pull request to have your changes merged into the main project. Please refer to the [Source Control Workflow](workflow.md) documentation for detailed instructions.
-
+* [Change Management Workflow](workflow.md)
 
 [1]: https://github.com/[user]/[project]/issues
