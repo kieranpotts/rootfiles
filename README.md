@@ -3,13 +3,6 @@
 
 # Repository Title
 
-<!--
-[![Latest](https://img.shields.io/github/release/user/repo.svg?style=for-the-badge&label=Latest&colorA=777777&colorB=bbbbbb&maxAge=3600)](https://github.com/user/repo/releases)
-[![Issues](https://img.shields.io/github/issues/user/repo.svg?style=for-the-badge&label=Issues&colorA=777777&colorB=bbbbbb&maxAge=3600)](https://github.com/user/repo/issues)
-[![Pull Requests](https://img.shields.io/github/issues-pr/user/repo.svg?style=for-the-badge&label=Pull%20Requests&colorA=777777&colorB=bbbbbb&maxAge=3600)](https://github.com/user/repo/pulls)
-[![Travis](https://img.shields.io/travis/user/repo.svg?style=for-the-badge&label=Build&colorA=777777&colorB=bbbbbb&maxAge=3600)](https://travis-ci.org/user/repo)
--->
-
 **Optional tagline here.**
 
 Fusce lacinia felis ultricies gravida vestibulum. Nam egestas venenatis malesuada. Quisque sed dui sit amet risus egestas imperdiet. Aliquam erat felis, rhoncus sed eleifend a, auctor in lectus.
@@ -54,7 +47,13 @@ Quisque fringilla elit eu auctor vehicula. Nulla at tincidunt risus, nec tristiq
 
 ----
 
-#### License
+<!--
+[![Latest](https://img.shields.io/github/release/user/repo.svg?style=for-the-badge&label=Latest&colorA=333333&colorB=aaaaaa&maxAge=3600)](https://github.com/user/repo/releases)
+[![Issues](https://img.shields.io/github/issues/user/repo.svg?style=for-the-badge&label=Issues&colorA=333333&colorB=aaaaaa&maxAge=3600)](https://github.com/user/repo/issues)
+[![Pull Requests](https://img.shields.io/github/issues-pr/user/repo.svg?style=for-the-badge&label=Pull%20Requests&colorA=333333&colorB=aaaaaa&maxAge=3600)](https://github.com/user/repo/pulls)
+[![Travis](https://img.shields.io/travis/user/repo.svg?style=for-the-badge&label=Build&colorA=333333&colorB=aaaaaa&maxAge=3600)](https://travis-ci.org/user/repo)
+-->
 
-Copyright © 2010-2019 Kieran Potts \
+Crafted with ❤ in Bristol, UK \
+Copyright © 2010-2019 Kieran Potts Consultancy Ltd \
 Distributed under the [Blue Oak Model License](/LICENSE.md)
