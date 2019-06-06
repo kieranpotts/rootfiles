@@ -56,4 +56,4 @@ Quisque fringilla elit eu auctor vehicula. Nulla at tincidunt risus, nec tristiq
 
 Crafted with ❤ in Bristol, UK \
 Copyright © 2010-2019 Kieran Potts Consultancy Ltd \
-Distributed under the [Blue Oak Model License](/LICENSE.md)
+Distributed under the [Blue Oak Model License](LICENSE.md)
