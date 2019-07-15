@@ -1,6 +1,6 @@
 # Change Management Workflow
 
-Change management is the process of managing a software change request through its lifecycle, from reporting through development and integraion to release. The process is dependent on supporting infrastructure — typically version control systems and issue trackers — and policies such as branch naming conventions and code review procedures.
+Change management is the process of managing a software change request through its life cycle, from reporting through development and integraion to release. The process is dependent on supporting infrastructure — typically version control systems and issue trackers — and policies such as branch naming conventions and code review procedures.
 
 For the Nero project we follow the [SrcFlow](https://github.com/srcflow/srcflow) process to manage change in the software.
 
