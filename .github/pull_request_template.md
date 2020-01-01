@@ -8,7 +8,7 @@
 
 #### Checklist
 
-* [ ] I have rebuilt the ``./dist/`` contents
+* [ ] I have rebuilt the `./dist/` contents
 * [ ] My changes are covered by new tests
 * [ ] My tests and all existing tests are passing
 * [ ] I have updated the documentation to reflect my changes

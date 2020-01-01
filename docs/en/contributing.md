@@ -24,7 +24,7 @@ If you require technical support, please first search for an answer in the issue
 
 #### Bug Reports
 
-Before reporting a bug, please first search the issue tracker to see if the error has been reported previously. If not, checkout the ``dev`` branch and try to reproduce the error there. The ``dev`` branch represents the most recent increment of the software, including unreleased increments. If the error cannot be reproduced in the ``dev`` branch, most likely it has already been resolved.
+Before reporting a bug, please first search the issue tracker to see if the error has been reported previously. If not, checkout the `dev` branch and try to reproduce the error there. The `dev` branch represents the most recent increment of the software, including unreleased increments. If the error cannot be reproduced in the `dev` branch, most likely it has already been resolved.
 
 To fix bugs, the project maintainers must be able to reproduce them. A good bug report will therefore include at least one of the following:
 
