@@ -1,17 +1,16 @@
-Resolves #[issue]
+---
+name: Feature
+about: Suggest functional changes
+title: ''
+labels: feature
+assignees: ''
+---
 
-Use the following template to provide information about the changes you are introducing to the software. Delete any sections from the template that are not applicable.
-
-
-## Summary of Changes
-Summarise the changes being introduced:
-- xxx
-- xxx
-- xxx
+Use the following template to provide information about the changes in functionality you propose to introduce to the software. Delete any sections from the template that are not applicable.
 
 
 ## User Stories
-What user stories do these changes introduce, modify or abandon? Use the following template for each story:
+Write one or more user stories that describe the proposed feature and its benefits from the perspective of particular groups of users. Use the following template for each story:
 
 ```
 In order to [do something]
@@ -25,9 +24,7 @@ Examples:
 In order to evaluate the performance of the team
 As a team manager
 I want to generate performance reports
-```
 
-```
 In order to evaluate the effectiveness of my strategy
 As a team member
 I want to see how my performance compares with my colleagues
@@ -35,7 +32,7 @@ I want to see how my performance compares with my colleagues
 
 
 ## Acceptance Criteria
-Write some acceptance criteria, covering all possible preconditions, processes and end results. Use the following template for each condition of satisfaction:
+Provide a list of acceptance criteria, covering all possible preconditions, processes and end results. Use the following template for each condition of satisfaction:
 
 ```
 Scenario: [scenario]
@@ -68,15 +65,7 @@ Given I am logged in as a team member
 ```
 
 
-## Checklist
-Please check the relevant boxes `[x]`:
-- [ ] I accept the terms of the Contributor License Agreement (mandatory)
-- [ ] The build script produces a production-grade artifact
-- [ ] My changes are covered by new tests
-- [ ] My tests and all existing tests are passing
-- [ ] I have updated the documentation to reflect my changes
-- [ ] I have reviewed my coding style against this project's conventions
-
-
-## Additional Comments
-Is there anything else you would like to tell the project's maintainers?
+## Contribute?
+Are you able to contribute the required source code changes yourself? Check one box `[x]`:
+- [ ] Yes
+- [ ] No
