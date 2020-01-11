@@ -1,5 +1,7 @@
+; ------------------------------------------------------------------------------
 ; This file is for unifying coding style between text editors and IDEs.
 ; More information at http://editorconfig.org
+; ------------------------------------------------------------------------------
 
 root = true
 
