@@ -1,20 +1,17 @@
 # ------------------------------------------------------------------------------
-# The .gitattributes file tells the Git version control system what
-# settings to automatically apply when handling various file types.
+# The `.gitattributes` file tells the Git source control system what settings to
+# automatically apply when handling various file types.
 # ------------------------------------------------------------------------------
 
-# Auto detect text files and
-# normalize line-endings to Unix (LF).
+# Auto detect text files and normalize line-endings to Unix (LF).
 
 * text=auto
 
-# Treat SVGs as text files. They are handled
-# as assets (binary) by default.
+# Treat SVGs as text files. They are handled as assets (binary) by default.
 
 *.svg text
 
-# Process these files as assets (binary).
-# Line endings will not be normalized.
+# Process these files as assets (binary). Line endings will not be normalized.
 
 *.eps binary
 *.gif binary
@@ -25,8 +22,7 @@
 *.tif binary
 *.tiff binary
 
-# Exclude these files and directories from
-# zipped archives of the repository.
+# Exclude these files and directories from zipped archives of the repository.
 
 .editorconfig export-ignore
 .gitattributes export-ignore
