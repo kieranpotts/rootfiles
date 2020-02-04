@@ -52,7 +52,6 @@ coverage
 .eslintcache
 .grunt
 lib-cov
-*.lock
 .node_repl_history
 .npm
 .nyc_output
