@@ -3,21 +3,26 @@
 ; @see http://editorconfig.org
 ; ------------------------------------------------------------------------------
 
-root = true
+root = true                           # This is the project's root directory.
 
-[*]
-charset = utf-8
-end_of_line = lf
-indent_size = 2
-indent_style = space
-insert_final_newline = true
-trim_trailing_whitespace = true
+[*]                                   # Defaults:
+charset = utf-8                       # - Files are UTF-8 encoded.
+end_of_line = lf                      # - Files use Unix line endings.
+indent_style = space                  # - Use spaces for indentation.
+indent_size = 2                       # - Each indent should contain two spaces.
+insert_final_newline = true           # - For VCS, end files with an empty line.
+max_line_length = 120                 # - Lines should not exceed this length.
+trim_trailing_whitespace = true       # - No whitespace on the end of lines.
 
-[*.bat]
-end_of_line = crlf
+[*.bat]                               # Windows Batch files:
+end_of_line = crlf                    # - Require \r\n line endings.
 
-[*.md]
-trim_trailing_whitespace = false
+[*.md]                                # Markdown:
+trim_trailing_whitespace = false      # - Leave trailing whitespace.
 
-[*.php]
-indent_size = 4
+[*.php]                               # PHP:
+indent_size = 4                       # - 4-space indents are conventional.
+
+[{Makefile,**.mk}]                    # Makefiles:
+indent_style = tab                    # - Require tabs for indentation.
+
