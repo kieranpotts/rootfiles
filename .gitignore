@@ -37,6 +37,7 @@ nbproject
 *.sublime-workspace
 *.sublime-project
 .vs
+.vscode
 
 # Logs.
 
@@ -81,3 +82,9 @@ dist
 .next
 public
 *.tgz
+
+# A place to try out code within the project context.
+# And a place for your personal tasks.
+
+.scratch
+.todo
