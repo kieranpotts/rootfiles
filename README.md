@@ -1,7 +1,6 @@
 [![Project Logo](https://raw.githubusercontent.com/kieranpotts/rootfiles/7c09a7f8e948c6c64f76aa5ba0b3f533d083ce28/docs/img/logo.svg?sanitize=true)](https://github.com/kieranpotts/rootfiles) 
 
-
-# Repository Title
+# Project Title
 
 **Optional tagline here.**
 
@@ -11,39 +10,38 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis dolor no
 
 Quisque fringilla elit eu auctor vehicula. Nulla at tincidunt risus, nec tristique odio. Mauris vehicula orci a tortor tincidunt, consectetur ornare massa rhoncus. Pellentesque eu augue tellus. Aenean cursus dapibus magna.
 
-
 ## Documentation
 
 #### Overview
 
-- [Introduction](docs/en/introduction.md)
-- [Features](docs/en/features.md)
-- [Compatibility](docs/en/compatibility.md)
-- [Design Principles](docs/en/principles.md)
-- [Architecture](docs/en/architecture.md)
-- [Conventions](docs/en/conventions.md)
-- [License](docs/en/license.md)
+- [Introduction](./docs/en/introduction.md)
+- [Features](./docs/en/features.md)
+- [Compatibility](./docs/en/compatibility.md)
+- [Design Principles](./docs/en/principles.md)
+- [Architecture](./docs/en/architecture.md)
+- [Conventions](./docs/en/conventions.md)
+- [License](./docs/en/license.md)
 
 #### Usage
 
-- [Get Started](docs/en/start.md)
-- [Requirements](docs/en/requirements.md)
-- [Installation](docs/en/installation.md)
-- [Configuration](docs/en/configuration.md)
-- [Updating](docs/en/updating.md)
-- [Migrations](docs/en/migrations.md)
+- [Get Started](./docs/en/start.md)
+- [Requirements](./docs/en/requirements.md)
+- [Installation](./docs/en/installation.md)
+- [Configuration](./docs/en/configuration.md)
+- [Updating](./docs/en/updating.md)
+- [Migrations](./docs/en/migrations.md)
 
 #### Contributing 
 
-- [Change Management Workflow](docs/en/workflow.md)
-- [How to Contribute](docs/en/contributing.md)
-- [Filesystem Structure](docs/en/structure.md)
-- [Style Guide](docs/en/style-guide.md)
-- [Building](docs/en/build.md)
-- [Testing](docs/en/testing.md)
-- [Contributor License Agreement](docs/en/cla.md)
-- [Code of Conduct](docs/en/code-of-conduct.md)
-- [Acknowledgements](docs/en/acknowledgements.md)
+- [Change Management Workflow](./docs/en/workflow.md)
+- [How to Contribute](./docs/en/contributing.md)
+- [Filesystem Structure](./docs/en/structure.md)
+- [Style Guide](./docs/en/style-guide.md)
+- [Building](./docs/en/build.md)
+- [Testing](./docs/en/testing.md)
+- [Contributor License Agreement](./docs/en/cla.md)
+- [Code of Conduct](./docs/en/code-of-conduct.md)
+- [Acknowledgements](./docs/en/acknowledgements.md)
 
 ----
 
@@ -55,5 +53,5 @@ Quisque fringilla elit eu auctor vehicula. Nulla at tincidunt risus, nec tristiq
 -->
 
 Crafted with ❤ in Bristol, UK \
-Copyright © 2010-2019 Kieran Potts Consultancy Ltd \
+Copyright © 2010-2020 Kieran Potts (Consultancy Ltd.) \
 Distributed under the [Blue Oak Model License](LICENSE.md)
