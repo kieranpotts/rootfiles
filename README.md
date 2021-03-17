@@ -14,34 +14,34 @@ Quisque fringilla elit eu auctor vehicula. Nulla at tincidunt risus, nec tristiq
 
 #### Overview
 
-- [Introduction](./docs/en/introduction.md)
-- [Features](./docs/en/features.md)
-- [Compatibility](./docs/en/compatibility.md)
-- [Design Principles](./docs/en/principles.md)
-- [Architecture](./docs/en/architecture.md)
-- [Conventions](./docs/en/conventions.md)
-- [License](./docs/en/license.md)
+- [Introduction](./docs/en/overview/introduction.md)
+- [Features](./docs/en/overview/features.md)
+- [Compatibility](./docs/en/overview/compatibility.md)
+- [Design Principles](./docs/en/overview/principles.md)
+- [Architecture](./docs/en/overview/architecture.md)
+- [Conventions](./docs/en/overview/conventions.md)
+- [License](./docs/en/overview/license.md)
 
 #### Usage
 
-- [Get Started](./docs/en/start.md)
-- [Requirements](./docs/en/requirements.md)
-- [Installation](./docs/en/installation.md)
-- [Configuration](./docs/en/configuration.md)
-- [Updating](./docs/en/updating.md)
-- [Migrations](./docs/en/migrations.md)
+- [Get Started](./docs/en/usage/start.md)
+- [Requirements](./docs/en/usage/requirements.md)
+- [Installation](./docs/en/usage/installation.md)
+- [Configuration](./docs/en/usage/configuration.md)
+- [Updating](./docs/en/usage/updating.md)
+- [Migrations](./docs/en/usage/migrations.md)
 
 #### Contributing 
 
-- [Change Management Workflow](./docs/en/workflow.md)
-- [How to Contribute](./docs/en/contributing.md)
-- [Filesystem Structure](./docs/en/structure.md)
-- [Style Guide](./docs/en/style-guide.md)
-- [Building](./docs/en/build.md)
-- [Testing](./docs/en/testing.md)
-- [Contributor License Agreement](./docs/en/cla.md)
-- [Code of Conduct](./docs/en/code-of-conduct.md)
-- [Acknowledgements](./docs/en/acknowledgements.md)
+- [Change Management Workflow](./docs/en/contributing/workflow.md)
+- [How to Contribute](./docs/en/contributing/contributing.md)
+- [Filesystem Structure](./docs/en/contributing/structure.md)
+- [Style Guide](./docs/en/contributing/style-guide.md)
+- [Building](./docs/en/contributing/build.md)
+- [Testing](./docs/en/contributing/testing.md)
+- [Contributor License Agreement](./docs/en/contributing/cla.md)
+- [Code of Conduct](./docs/en/contributing/code-of-conduct.md)
+- [Acknowledgements](./docs/en/contributing/acknowledgements.md)
 
 ----
 
