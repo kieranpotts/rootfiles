@@ -1,7 +1,7 @@
 ---
 name: Support
 about: Request technical support
-title: ''
+title: 'SUPPORT: '
 labels: support
 assignees: ''
 ---

@@ -1,7 +1,7 @@
 ---
 name: Maintenance
 about: Plan some maintenance work
-title: ''
+title: 'MAINTENANCE: '
 labels: maintenance
 assignees: ''
 ---

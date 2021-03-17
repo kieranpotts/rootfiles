@@ -1,7 +1,7 @@
 ---
 name: Incident
 about: Report an incident experienced by an end user
-title: ''
+title: 'INCIDENT: '
 labels: incident
 assignees: ''
 ---

@@ -1,7 +1,7 @@
 ---
 name: Bug
 about: Report an error
-title: ''
+title: 'BUG: '
 labels: bug
 assignees: ''
 ---

@@ -1,7 +1,7 @@
 ---
 name: Refactoring
 about: Require improvements to the system's quality attributes
-title: ''
+title: 'REFACTORING: '
 labels: refactoring
 assignees: ''
 ---
