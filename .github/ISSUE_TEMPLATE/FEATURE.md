@@ -6,11 +6,23 @@ labels: feature
 assignees: ''
 ---
 
-Use the following template to provide information about the changes in functionality you propose to introduce to the software. Delete any sections from the template that are not applicable.
+> Use this issue template to provide information about new **features** or changes in **functionality** you propose to introduce to the software. Delete any sections from the template that are not applicable.
 
 
-## User Stories
-Write one or more user stories that describe the proposed feature and its benefits from the perspective of particular groups of users. Use the following template for each story:
+## Summary of changes
+
+> Summarise all the changes that you propose be introduced:
+
+- xxx
+- xxx
+- xxx
+
+
+## User stories
+
+> Write one or more user stories that describe the proposed feature, or how existing behaviours will change or be deprecated. User stories should clearly signal the benefits of the changes from the perspective of particular groups of users. Alternatively, there may be commercial motivations for introducing some changes, such as high running costs. In this case, tell the user story from the perspective of the software vendor.
+>
+> Use the following template for each story:
 
 ```
 In order to [do something]
@@ -18,7 +30,7 @@ As a [user type]
 I want to [some goal]
 ```
 
-Examples:
+> Examples:
 
 ```
 In order to evaluate the performance of the team
@@ -31,8 +43,9 @@ I want to see how my performance compares with my colleagues
 ```
 
 
-## Acceptance Criteria
-Provide a list of acceptance criteria, covering all possible preconditions, processes and end results. Use the following template for each condition of satisfaction:
+## Acceptance criteria
+
+> Provide a list of acceptance criteria, covering all possible preconditions, processes and end results. Use the following template for each condition of satisfaction:
 
 ```
 Scenario: [scenario]
@@ -45,7 +58,7 @@ Given [state]
  (And [result])
 ```
 
-Examples:
+> Examples:
 
 ```
 Scenario: Team manager views performance report
@@ -65,7 +78,9 @@ Given I am logged in as a team member
 ```
 
 
-## Contribute?
-Are you able to contribute the required source code changes yourself? Check one box `[x]`:
-- [ ] Yes
-- [ ] No
+## Contributing
+
+> Are you able to contribute the required source code changes yourself? Check one box `[x]`:
+
+- [ ] Yes, I want to contribute to the development of this feature
+- [ ] No, I do not have the time or skills
