@@ -1,8 +1,8 @@
 ---
-name: Help
+name: Support
 about: Request technical support
 title: ''
-labels: help
+labels: support
 assignees: ''
 ---
 
