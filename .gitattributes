@@ -3,16 +3,14 @@
 # automatically apply when handling various file types.
 # ------------------------------------------------------------------------------
 
-# Auto detect text files and normalize line-endings to Unix (LF).
-
-* text=auto
+# Auto detect text files and normalize line-endings to Unix format, in both the
+# remote repository and the local working directory.
+* text=auto eol=lf
 
 # Treat SVGs as text files. They are handled as assets (binary) by default.
-
 *.svg text
 
 # Process these files as assets (binary). Line endings will not be normalized.
-
 *.eps binary
 *.gif binary
 *.ico binary
@@ -23,7 +21,6 @@
 *.tiff binary
 
 # Exclude these files and directories from zipped archives of the repository.
-
 .editorconfig export-ignore
 .gitattributes export-ignore
 .gitignore export-ignore
