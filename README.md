@@ -1,4 +1,4 @@
-[![Project Logo](https://raw.githubusercontent.com/kieranpotts/rootfiles/7c09a7f8e948c6c64f76aa5ba0b3f533d083ce28/docs/img/logo.svg?sanitize=true)](https://github.com/kieranpotts/rootfiles) 
+[![Project Logo](https://raw.githubusercontent.com/kieranpotts/skeleton/7c09a7f8e948c6c64f76aa5ba0b3f533d083ce28/docs/img/logo.svg?sanitize=true)](https://github.com/kieranpotts/skeleton) 
 
 # Project Title
 
