@@ -44,7 +44,7 @@ Actual:
     - OS: eg Android, iOS, Windows 10
     - Browser: eg Stock browser, Chrome, Safari
     - Version: eg v22
-- [ ] Node.js
+- [ ] Node
     - Version: eg v10.15
     - OS: eg macOS Mojave, Windows 10
     - Package manager: eg NPM, Yarn
