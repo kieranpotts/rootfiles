@@ -12,7 +12,6 @@ assignees: ''
 >
 > Use this template to log any work that needs to be done _urgently_ to address particular quality attributes of the software. Delete any sections that are not relevant.
 
-
 ## Materials
 
 > Which of the following source materials have problems that need addressing? Check one or more items `[x]`:
@@ -23,7 +22,6 @@ assignees: ''
 - [ ] Specifications
 - [ ] Tests
 - [ ] Other: ___
-
 
 ## Attributes
 
@@ -48,16 +46,13 @@ assignees: ''
 - [ ] Usability
 - [ ] Others: ___
 
-
 ## Details
 
 > Use this space to provide details of the changes that need to be made, and why. This should be as comprehensive as possible – assume you will not be assigned to work on this issue and that you will not be available to communicate your knowledge to the assigned developer.
 
-
 ## Cost versus benefits
 
 > If possible, provide an estimate of the effort required to deliver the changes. How does this compare to the cost of ignoring the issue?
-
 
 ## Priority
 
